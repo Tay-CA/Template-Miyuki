@@ -1,0 +1,44 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover, a:active{
+    color: lightgray;
+}
+
+.nav-caption{
+    display: inline-block;
+    padding-left: 6px;
+}
+.mat-list-base{
+    padding-top:20px !important;
+}
+.container-nav{
+    padding-top: 100px !important;
+}
+.mat-sidenav-backdrop.mat-sidenav-shown{
+    background-color: transparent !important;
+}
+.mat-drawer-inner-container {
+    width: 250px;
+    overflow-y: hidden;
+}
+
+.mat-sidenav{
+    width: 100% !important;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.menuBtn{
+    cursor: pointer;
+}
+.mat-icon{
+    transform: scale(2);
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+.site-logo{
+    padding-bottom: 60px;
+    padding-left: 15px;
+}

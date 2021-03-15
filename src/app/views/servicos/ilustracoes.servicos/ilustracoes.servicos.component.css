@@ -1,0 +1,10 @@
+h3 {
+    color: #737373;
+    font-weight: bold;
+    text-align: justify;
+    padding-bottom: 25px;
+}
+
+::ng-deep .mat-drawer-content{
+    overflow: hidden !important;
+  }

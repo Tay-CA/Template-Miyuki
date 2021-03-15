@@ -1,0 +1,11 @@
+.layout-wrapper{
+    height: 100%;
+}
+
+.flex-wrapper{
+    height: 100%;
+}
+
+.mat-drawer-content {
+    overflow: hidden !important;
+}

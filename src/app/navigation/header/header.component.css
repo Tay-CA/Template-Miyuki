@@ -1,0 +1,45 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover, a:active{
+    color: lightgray;
+}
+
+.navigation-items{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+mat-toolbar{
+    border-radius: 3px;
+}
+
+@media(max-width: 959px){
+    mat-toolbar{
+        border-radius: 0px;
+    }
+}
+
+@media(max-width: 768px)
+{
+    .mat-icon{
+        transform: scale(2);
+        margin-right: 15px;
+        padding-bottom: 80px;
+        vertical-align: middle;
+    }
+    .textsize {
+        font-size: 0.75em;
+        display: none;
+    }    
+}
+.menuBtn{
+    cursor: pointer;
+}
+
+.textsize {
+    font-size: 0.75em;
+}

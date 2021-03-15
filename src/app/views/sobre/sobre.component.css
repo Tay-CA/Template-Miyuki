@@ -1,0 +1,59 @@
+hr {
+    border-color: #c7533d !important;
+    margin-inline-start: initial !important;
+    margin-top: 0px !important;
+}
+
+.aboutstructure {
+    margin-left: 10px;
+}
+
+/*Conteúdo*/
+.titles {
+    margin-bottom: 0px !important;
+    font-family:  "Century Gothic", CenturyGothic, AppleGothic, sans-serif;  
+    font-size: 2.5em;
+    text-align: left;
+}
+
+.team {
+    overflow: auto;
+    border: none;
+    text-align: justify;
+}
+
+.teamnames {
+    font-family:  "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-weight: bold; 
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+.teamsubtitles {
+    font-family:  "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 0.80em;  
+    text-align: justify;
+}
+
+.teamtexts {
+    font-family:  "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 1em;  
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+/*Imagens da equipe*/
+.p-imgcircle {
+    width: 100px; 
+    height: 100px; 
+    margin: 10px 20px 10px 0px; 
+    float: left; 
+}
+
+.container-fluid{
+    padding-bottom: 50px;
+}
+
+::ng-deep .mat-drawer-content{
+    overflow: hidden !important;
+}

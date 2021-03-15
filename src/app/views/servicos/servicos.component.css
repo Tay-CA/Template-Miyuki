@@ -1,0 +1,57 @@
+hr {
+    border-color: #e95238 !important;
+    margin-inline-start: auto !important;
+    margin-top: 0px !important;
+}
+
+a {
+    color: #737373;
+}
+
+.titles {
+    margin-bottom: 0px !important;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.card{
+    border: none;    
+}
+.col-4 > .card:first-child {
+margin-left: 5px;
+}
+.col-4 > .card:last-child {
+    margin-right: 5px;
+}
+.col-4 > a > .card {
+    border:none;
+}
+.col-4 > a > .card:hover {
+    border:1px solid black;
+    cursor: pointer;
+}
+
+::ng-deep .mat-drawer-content{
+    overflow: hidden !important;
+  }
+
+  .h-80{
+      height: 80% !important;
+  }
+
+  @media(min-width: 600px)
+  {
+      .row{
+          height: 50%;
+      }
+      .row > div{
+        height: 100%;
+      }
+      .row > div > a > .card{
+        height: 100%;
+      }
+      .row > div > a > .card > .card-body{
+        padding: 0.5rem;
+      }
+
+  }

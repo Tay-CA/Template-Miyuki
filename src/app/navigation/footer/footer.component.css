@@ -1,0 +1,55 @@
+.HoriLogo {
+    height: 50px;
+    width: 300px;
+    padding-left: 50px;
+}
+
+@media (max-width: 768px) {
+    .HoriLogo {
+        height: 50px;
+        width: 300px;
+        margin: 5px 0px 5px 0px;
+        padding: 0px 0px 0px 0px;
+
+    }
+}
+
+.FooterInfo {
+    text-align: justify;
+    float: right;
+}
+
+.PhoneIcon {
+    height: 13px;
+    width: 13px;
+    margin: 5px 5px 0px 0px;
+}
+
+.Phone {
+    color: #e95238;
+    font-size: 0.8em;
+}
+
+.MailIcon {
+    height: 10px;
+    width: 20px;
+    margin: 5px 5px 0px 54px;
+}
+
+.Mail {
+    color: #dddcdd;
+    font-size: 0.8em;
+}
+
+.Copyright {
+    font-size: 0.6em;
+    text-align: justify;
+}
+
+@media (min-width: 1080px) {
+    .Copyright {
+        font-size: 0.6em;
+        text-align: justify;
+        margin: 3px 0 0 30px;
+    }
+}

@@ -1,0 +1,58 @@
+::ng-deep .mat-drawer-content{
+    overflow: hidden !important;
+  }
+
+/*For mobile*/
+@media only screen and (max-width: 768px){
+    h3 {
+        color: #1d1d1d;
+        text-align: justify;
+        font-size: 1.25rem;
+    }
+    h5 {
+        color: #e95238;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    
+    p {
+        color: #737373;
+        font-size: 0.8rem;
+    }
+    
+    .IdVTexts {
+        padding: 0px 50px 0px 50px;
+        text-align: justify;
+    }
+    
+    .IdVTexts1 {
+        padding: 10px 50px 80px 50px;
+        text-align: justify;
+    }
+}
+
+/*For desktop*/
+@media only screen and (min-width: 768px){
+    h3 {
+        color: #1d1d1d;
+        text-align: justify;
+    }
+    h5 {
+        color: #e95238;
+        font-weight: bold;
+    }
+    
+    p {
+        color: #737373;
+    }
+    
+    .IdVTexts {
+        padding: 0px 50px 0px 50px;
+        text-align: justify;
+    }
+    
+    .IdVTexts1 {
+        padding: 10px 50px 80px 50px;
+        text-align: justify;
+    } 
+}

@@ -1,0 +1,14 @@
+h3 {
+    color: #1d1d1d;
+    text-align: justify;
+}
+
+h4 {
+    color: #737373;
+    text-align: justify;
+    font-weight: bold;
+}
+
+::ng-deep .mat-drawer-content{
+    overflow: hidden !important;
+  }

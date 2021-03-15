@@ -1,0 +1,30 @@
+<mat-nav-list class="bg-custom-gray">
+  <div class="site-logo">
+    <span class="menuBtn" mat-button (click)="onToggleSidenav()">
+      <mat-icon>menu</mat-icon>
+    </span>
+  </div>
+  <div id="mySidenav" class="sidenav">
+    <a mat-list-item routerLink="/home" (click)="onSidenavClose()">
+      <img class="img-borderless" src="https://i.imgur.com/arQIIdN.png"
+        style="height: 150px; width: 200px; padding-left: 25px;">
+    </a>
+    <div class="container container-nav">
+      <a mat-list-item routerLink="/sobre" (click)="onSidenavClose()">
+        <span class="nav-caption">Sobre</span>
+      </a>
+      <a mat-list-item routerLink="/servicos" (click)="onSidenavClose()">
+        <span class="nav-caption">Serviços</span>
+      </a>
+      <a mat-list-item routerLink="/contato" (click)="onSidenavClose()">
+        <span class="nav-caption">Contato</span>
+      </a>
+      <a mat-list-item href="https://www.behance.net/miria_nunes" target="_blank" (click)="onSidenavClose()">
+        <span class="nav-caption">Portifólio</span>
+      </a>
+      <!--<a mat-list-item routerLink="/parceiros" (click)="onSidenavClose()">
+        <span class="nav-caption">Parceiros</span>
+      </a>-->
+    </div>
+  </div>
+</mat-nav-list>
